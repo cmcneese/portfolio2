@@ -11,7 +11,26 @@
 
 .nav-bar {
   padding: 1rem;
-  align-content: center;
+  justify-content: center;
   display: flex;
   color: #808080;
+}
+
+.nav-bar_content {
+  display: flex;
+}
+
+.about {
+  color: #808080;
+  text-decoration: none;
+}
+
+.work {
+  color: #808080;
+  text-decoration: none;
+}
+
+.contact {
+  color: #808080;
+  text-decoration: none;
 }
