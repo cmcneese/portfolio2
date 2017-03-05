@@ -13,7 +13,12 @@
   padding: 1rem;
   justify-content: center;
   display: flex;
-  color: #808080;
+  color: red;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
 }
 
 .nav-bar_content {
@@ -22,18 +27,20 @@
   // padding: 0.5rem;
 }
 
+
 .about {
-  color: #808080;
+  color: red;
   text-decoration: none;
 }
 
 .work {
-  color: #808080;
+  color: red;
   text-decoration: none;
   padding-left: 0.5rem;
 }
 
 .contact {
-  color: #808080;
+  color: red;
   text-decoration: none;
+  padding-left: 0.5rem;
 }
