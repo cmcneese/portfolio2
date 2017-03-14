@@ -1,0 +1,10 @@
+.full-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+
+  &__content {
+    flex-grow: 1;
+  }
+}

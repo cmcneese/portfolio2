@@ -1,0 +1,58 @@
+.grid-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.grid__item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc(100% / 2 - 4rem);
+  border-radius: 5px;
+  margin: 1rem;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+.top-box {
+  background: rgba(229, 77, 66, 1.0);
+  padding: 1rem;
+  position: relative;
+}
+
+
+.title {
+  font-family: sans-serif;
+  letter-spacing: -1px;
+}
+
+.chip {
+  position: absolute;
+  width: 5rem;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(45, 62, 79, 1.0);
+  border-radius: 2px;
+  padding: 0.5rem;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+.content__week-1 {
+  padding: 0.5rem;
+  text-align: left;
+}
+
+@media (max-width: 720px) {
+  .grid {
+    flex-direction: column;
+  }
+}
