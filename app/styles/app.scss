@@ -13,6 +13,13 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'reset';
 @import 'layout';
 
+.profile-pic {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  border: solid white 2px;
+}
+
 .city-picture {
   position: relative;
 
