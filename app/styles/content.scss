@@ -6,11 +6,21 @@
     align-items: center;
     justify-content: center;
     padding: 0rem;
-    background: $c-hero-blue;
+    background: "../image/CoffeeMac.jpg";
     text-align: center;
     text-transform: uppercase;
     filter: grayscale(60%);
   }
+}
+
+.profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img {
+
 }
 
 .hero-tag {
