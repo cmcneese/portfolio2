@@ -21,7 +21,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   border: solid white 2px;
 }
 
-.city-picture {
+.about-picture {
   position: relative;
 
   &__img {
@@ -37,7 +37,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
     top: 11%;
     left: 3%;
     color: $c-nav-bar-bottom;
-    opacity: 0;
+    opaabout: 0;
     visibility: hidden;
   }
   &__img:hover {
@@ -46,11 +46,11 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   }
 }
 
-.city-picture {
+.about-picture {
   &:hover {
-    .city-picture__caption {
+    .about-picture__caption {
       transition: 2s;
-      opacity: 1;
+      opaabout: 1;
       visibility: visible;
     }
   }
