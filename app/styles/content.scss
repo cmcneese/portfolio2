@@ -16,8 +16,14 @@
 }
 
 .profile-pic {
-  display: flex;
-  align-items: center;
+  // display: flex;
+  // align-items: center;
+  // border
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    border: solid #fff 2px;
+    margin: auto;
 }
 
 .hero-img {
