@@ -1,0 +1,39 @@
+{
+  "name": "portfolio2",
+  "version": "1.0.0",
+  "description": "portfolio-react",
+  "main": "index.js",
+  "dependencies": {
+    "broccoli-autoprefixer": "^4.1.0",
+    "broccoli-babel-transpiler": "^6.0.0-alpha.1",
+    "broccoli-csso": "^2.0.0",
+    "broccoli-funnel": "^1.2.0",
+    "broccoli-inject-livereload": "^0.2.0",
+    "broccoli-merge-trees": "^0.2.4",
+    "broccoli-sass-source-maps": "^1.8.1",
+    "bulma": "^0.4.2",
+    "ember-idx-button": "^0.1.3",
+    "node": "^9.2.0",
+    "node-sass": "^4.7.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "git init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmcneese/portfolio2.git"
+  },
+  "keywords": [
+    "portfolio",
+    "react"
+  ],
+  "author": "Chris McNeese",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmcneese/portfolio2/issues"
+  },
+  "homepage": "https://github.com/cmcneese/portfolio2#readme"
+}
